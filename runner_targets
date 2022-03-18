@@ -8,36 +8,21 @@ https://www.nalog.gov.ru/ http://www.nalog.gov.ru --http-methods bypass cfb
 
 #itarmy
 
-http://www.icentr.ru http://www.kt-69.ru http://www.24ecp.ru http://kraskript.com --http-methods bypass cfb dgb
+http://www.kt-69.ru http://www.24ecp.ru http://kraskript.com --http-methods bypass cfb dgb
 
-http://www.y-center.ru http://www.rcarus.ru http://ca.gisca.ru --http-methods bypass cfb dgb
+http://www.y-center.ru http://www.rcarus.ru --http-methods bypass cfb dgb
+  
 
-tcp://213.189.196.127:53 tcp://213.189.196.127:80 tcp://213.189.196.127:443  
-
-
-tcp://31.31.196.207:21 tcp://31.31.196.207:22 tcp://31.31.196.207:25 tcp://31.31.196.207:53 
-
-tcp://31.31.196.207:80 tcp://31.31.196.207:110 tcp://31.31.196.207:143 tcp://31.31.196.207:443 tcp://31.31.196.207:465
-
-tcp://31.31.196.24:21 tcp://31.31.196.24:22 tcp://31.31.196.24:25 tcp://31.31.196.24:53 
-
-tcp://31.31.196.24:80 tcp://31.31.196.24:110 tcp://31.31.196.24:143 tcp://31.31.196.24:443 tcp://31.31.196.24:465
 
 
 tcp://87.236.16.135:22 tcp://87.236.16.135:80 tcp://87.236.16.135:443
 
 
-tcp://31.31.198.175:21 tcp://31.31.198.175:22 tcp://31.31.198.175:25 tcp://31.31.198.175:53 
 
-tcp://31.31.198.175:80 tcp://31.31.198.175:110 tcp://31.31.198.175:143 tcp://31.31.198.175:443 tcp://31.31.198.175:465
 
 
 tcp://91.106.207.34:21 tcp://91.106.207.34:22 tcp://91.106.207.34:80 tcp://91.106.207.34:3306
 
-
-tcp://79.174.66.135:21 tcp://79.174.66.135:22 tcp://79.174.66.135:25 tcp://79.174.66.135:80 
-
-tcp://79.174.66.135:110 tcp://79.174.66.135:143 tcp://79.174.66.135:443 tcp://79.174.66.135:3306
 
 
 tcp://91.215.221.46:21 tcp://91.215.221.46:25 tcp://91.215.221.46:110 tcp://91.215.221.46:143 
