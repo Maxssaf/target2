@@ -46,7 +46,3 @@ curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner.sh | bash -
 ```
 
 
-
-
-### 🇺🇦🇺🇦🇺🇦 СЛАВА УКРАЇНІ 🇺🇦🇺🇦🇺🇦
-### ПТН ХЛО 🤡
