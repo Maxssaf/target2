@@ -15,7 +15,7 @@ http://www.y-center.ru http://www.rcarus.ru --http-methods bypass cfb dgb
 
 
 
-tcp://87.236.16.135:22 tcp://87.236.16.135:80 tcp://87.236.16.135:443
+tcp://87.236.16.135:22 tcp://87.236.16.135:80 tcp://87.236.16.135:443 --http-methods POST
 
 
 
