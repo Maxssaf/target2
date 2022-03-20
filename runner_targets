@@ -3,11 +3,11 @@
 
 
 
-https://cargox.ru/ http://cargox.ru/ --http-methods bypass cfb
+https://cargocash.ru/ http://cargocash.ru/ --http-methods bypass cfb
 
-http://95.214.63.193:80 http://95.214.63.193:443 --http-methods stress
+http://188.225.36.11:443 --http-methods stress
 
-tcp://95.214.63.193:443 tcp://95.214.63.193:80
+tcp://188.225.36.11:443
 
 #itarmy
 
