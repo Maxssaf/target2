@@ -3,11 +3,11 @@
 
 
 
-https://vezetvsem.ru/ https://frontend.vezetvsem.ru/ --http-methods bypass cfb
+https://cargox.ru/ http://cargox.ru/ --http-methods bypass cfb
 
-https://89.108.106.50:443 --http-methods stress
+http://95.214.63.193:80 http://95.214.63.193:443 --http-methods stress
 
-tcp://89.108.106.50:443
+tcp://95.214.63.193:443 tcp://95.214.63.193:80
 
 #itarmy
 
