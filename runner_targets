@@ -3,11 +3,11 @@
 
 
 
-https://groozgo.ru/ http://groozgo.ru/ --http-methods cfb 
+https://vezetvsem.ru/ https://frontend.vezetvsem.ru/ --http-methods bypass cfb
 
-https://178.57.75.119:443 --http-methods stress
+https://89.108.106.50:443 --http-methods stress
 
-tcp://178.57.75.119:443
+tcp://89.108.106.50:443
 
 #itarmy
 
