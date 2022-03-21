@@ -27,7 +27,7 @@ tcp://46.48.118.29:80 tcp://46.48.118.29:443 tcp://62.76.102.63:80 tcp://62.76.1
 
 #ddos separiv
 
-https://online.metro-cc.ru/ --http-methods STRESS
+tcp://5.53.120.162:443 tcp://5.53.120.163:443 tcp://95.213.206.234:443
 
 
 
