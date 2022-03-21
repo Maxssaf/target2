@@ -28,7 +28,7 @@ tcp://46.48.118.29:80 tcp://46.48.118.29:443 tcp://62.76.102.63:80 tcp://62.76.1
 
 #ddos separiv
 
-https://online.metro-cc.ru/category/myasnaya-gastronomiya/kopchenye-kolbasy --http-methods BOT
+https://online.metro-cc.ru/category/myasnaya-gastronomiya/kopchenye-kolbasy --http-methods STRESS
 
 
 
