@@ -3,14 +3,11 @@
 
 #zhnec
 
-https://vesti.ru http://vesti.ru --http-methods bypass cfb
+https://poezda.biletyplus.ru http://poezda.biletyplus.ru --http-methods bypass stress
 
-http://46.21.252.14:80 http://46.21.252.14:443 --http-methods stress
+http://5.53.120.162 https://5.53.120.162 http://5.53.120.163 https://5.53.120.163 htts://95.213.206.234 --http-methods stress
 
-tcp://46.21.252.14:80 tcp://46.21.252.14:443
-
-
-
+tcp://5.53.120.162:443 tcp://5.53.120.163:443 tcp://95.213.206.234:443
 
 
 #itarmy
