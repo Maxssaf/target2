@@ -19,7 +19,7 @@ num_of_copies="${1:-1}"
 restart_interval="300"
 
 #parameters that passed to python scrypt
-threads="${2:-500}"
+threads="${2:-1000}"
 threads="-t $threads"
 rpc="${3:-1000}"
 rpc="--rpc $rpc"
