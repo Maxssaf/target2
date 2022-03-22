@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+#Just in case kill previous copy of mhddos_proxy
+pkill -f runner.py
+pkill -f ./start.py
+
 #sudo apt update -y
 #sudo apt upgrade -y
 # Install git, python3
