@@ -2,7 +2,7 @@
 
 #zhnec
 
-https://www.cse.ru --http-methods cfb
+https://www.cse.ru --http-methods CFB
 
 tcp://185.65.20.5:443 tcp://185.65.22.8:8015 tcp://185.65.22.8:993
 
