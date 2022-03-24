@@ -2,7 +2,7 @@
 
 #zhnec
 
-https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ --http-methods CFB
+https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ --http-methods GET
 
 tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 tcp://213.24.64.94:443
 
