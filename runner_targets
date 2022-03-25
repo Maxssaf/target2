@@ -2,9 +2,11 @@
 
 #zhnec
 
-https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ --http-methods GET
+http://www.atol.ru https://www.atol.ru  
 
-tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 tcp://213.24.64.94:443
+tcp://93.174.48.173:443 tcp://178.57.71.182:443 tcp://178.57.71.189:80 tcp://178.57.71.189:443 tcp://178.57.71.190:80 tcp://178.57.71.190:443
+
+
 
 
 #itarmy
