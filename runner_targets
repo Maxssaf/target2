@@ -9,9 +9,9 @@ https://www.ponyexpress.ru/ tcp://185.10.63.194:80 tcp://185.10.63.194:443
 
 #itarmy
 
-https://www.cse.ru/ https://www.cse-rus.ru/ http://www.cse-rus.ru/ tcp://178.248.232.188:80 tcp://178.248.232.188:443 http-methods BYPASS CFB OVH
+https://www.cse.ru/ https://www.cse-rus.ru/ http://www.cse-rus.ru/ tcp://178.248.232.188:80 tcp://178.248.232.188:443 --http-methods BYPASS CFB OVH
 
-https://lk.cse.ru tcp://178.248.232.125:80 tcp://178.248.232.125:443 http-methods BYPASS
+https://lk.cse.ru tcp://178.248.232.125:80 tcp://178.248.232.125:443 --http-methods BYPASS
 
 https://api.cse.ru tcp://185.65.22.35:80 tcp://185.65.22.35:443 tcp://185.65.22.35:2000 tcp://185.65.22.35:5060
 
