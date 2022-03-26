@@ -51,9 +51,9 @@ ns3.cse.ru tcp://185.65.21.153:22 tcp://185.65.21.153:53 tcp://185.65.21.153:200
 
 #ddos separiv
 
-http://support.online.atol.ru http://term.atol.ru http://www.atol.ru http://online.atol.ru --http-methods STRESS
+https://www.minfin.gov.by tcp://195.50.4.142:22 
 
-tcp://93.174.48.173:443 tcp://178.57.71.182:443 tcp://178.57.71.189:80 tcp://178.57.71.189:443 tcp://178.57.71.190:80 tcp://178.57.71.190:443 
+ 
 
 
 
