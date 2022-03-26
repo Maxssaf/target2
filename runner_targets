@@ -1,18 +1,14 @@
 #zhnec
 
 https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru https://https://lkdr.nalog.gov.ru --http-methods STRESS
-
 tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 tcp://213.24.64.94:443 tcp://87.242.70.127:443 tcp://90.156.242.130:443
 
 
 #itarmy
 
 https://www.cse.ru/ https://www.cse-rus.ru/ http://www.cse-rus.ru/ tcp://178.248.232.188:80 tcp://178.248.232.188:443 --http-methods BYPASS CFB OVH
-
 https://lk.cse.ru tcp://178.248.232.125:80 tcp://178.248.232.125:443 --http-methods BYPASS
-
 https://api.cse.ru tcp://185.65.22.35:80 tcp://185.65.22.35:443 tcp://185.65.22.35:2000 tcp://185.65.22.35:5060
-
 https://mail.cse.ru tcp://185.65.22.8:25 tcp://185.65.22.8:80 tcp://185.65.22.8:143 
 
 tcp://185.65.22.8:443 tcp://185.65.22.8:465 tcp://185.65.22.8:2000 tcp://185.65.22.8:5060
@@ -56,4 +52,3 @@ ns3.cse.ru tcp://185.65.21.153:22 tcp://185.65.21.153:53 tcp://185.65.21.153:200
 #ddos separiv
 
 https://195.50.7.181 tcp://195.50.7.181:21 --http-methods STRESS
-
