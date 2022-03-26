@@ -9,7 +9,7 @@ https://www.ponyexpress.ru/ tcp://185.10.63.194:80 tcp://185.10.63.194:443
 
 #itarmy
 
-https://www.cse.ru/ tcp://178.248.232.188:80 tcp://178.248.232.188:443
+https://www.cse.ru/ https://www.cse-rus.ru/ http://www.cse-rus.ru/ tcp://178.248.232.188:80 tcp://178.248.232.188:443
 
 https://lk.cse.ru tcp://178.248.232.125:80 tcp://178.248.232.125:443
 
