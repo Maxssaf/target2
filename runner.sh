@@ -63,9 +63,9 @@ do
             python3 runner.py $cmd_line $proxy_interval $rpc&   #$threads
             echo -e "Attack started. Wait a few minutes for output"
    done
-#echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
-sleep $restart_interval
-clear
+ #echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
+ sleep $restart_interval
+ clear
  echo -e "\nRESTARTING\nKilling old processes..."
  pkill -f runner.py
  pkill -f ./start.py
