@@ -37,7 +37,7 @@ do
    # Get number of targets in runner_targets. Only strings that are not commented out are used. Everything else is omitted.
    list_size=$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]" | wc -l)
 
-   echo -e "\nNumber of targets in list: " $list_size "\n"
+   echo -e "Number of targets in list: " $list_size "\n"
 
    # Create list with random numbers. To choose random targets from list on next step.
    random_numbers=$(shuf -i 1-$list_size -n $num_of_copies)
@@ -66,8 +66,8 @@ do
  #echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
  sleep $restart_interval
  clear
- echo -e "\nRESTARTING\nKilling old processes..."
+ #echo -e "\nRESTARTING\nKilling old processes..."
  pkill -f runner.py
  pkill -f ./start.py
- echo -e "\nOld processes have been killed - starting new ones"
+ echo -e "Old processes have been killed - starting new ones"
 done
