@@ -65,7 +65,7 @@ do
    done
    while true
    do
-      sleep 4
+      sleep 2
       cd ~/target2
       python3 cls.py
  
