@@ -63,14 +63,7 @@ do
             python3 runner.py --debug $cmd_line $proxy_interval $rpc&   #$threads
             #echo -e "Attack started. Wait a few minutes for output"
    done
-   while true
-   do
-      sleep 4
-      cd ~/target2
-      python3 cls.py
- 
-   done
- 
+   
  
  #echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
  sleep $restart_interval
