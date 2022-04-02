@@ -25,7 +25,7 @@ rpc="${3:-1000}"
 rpc="--rpc $rpc"
 proxy_interval="1200"
 proxy_interval="-p $proxy_interval"
-stats_interval="60"
+stats_interval="120"
 
 #Just in case kill previous copy of mhddos_proxy
 pkill -f runner.py
