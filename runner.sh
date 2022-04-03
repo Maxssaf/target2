@@ -25,7 +25,7 @@ rpc="${3:-2000}"
 rpc="--rpc $rpc"
 proxy_interval="1200"
 proxy_interval="-p $proxy_interval"
-#stats_interval="60"
+stats_interval="480"
 
 #Just in case kill previous copy of mhddos_proxy
 pkill -f runner.py
@@ -67,9 +67,9 @@ do
    
  
  #echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
- 
+ ifstat -i eth0 -t -b -n $stats_interval/$stats_interval | awk '$1 ~ /^[0-9]{2}:/{$2/=1024;$3/=1024;printf "[%s] %6.2f ↓MBit/s↓  %6.2f ↑MBit/s↑\n",$1,$2,$3}'&
  sleep $restart_interval
- ifstat -i eth0 -t -b -n  | awk '$1 ~ /^[0-9]{2}:/{$2/=1024;$3/=1024;printf "[%s] %6.2f ↓MBit/s↓  %6.2f ↑MBit/s↑\n",$1,$2,$3}'&
+ 
  clear
  #echo -e "\nRESTARTING\nKilling old processes..."  $stats_interval/$stats_interval
  pkill -f runner.py
